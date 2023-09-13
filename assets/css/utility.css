@@ -1,0 +1,64 @@
+:root {
+  /* Theme Colors */
+  --light-green: hsl(111, 55%, 64%);
+  --medium-green: hsl(140, 49%, 55%);
+  --dark-green: hsl(160, 64%, 43%);
+
+  /* Padding */
+  --p-10: 0.625rem;
+  --p-15: 0.9375rem;
+  --p-20: 1.25rem;
+
+  /* Margins */
+}
+
+/*------- Utility Classes -------*/
+
+/* Flex Properties */
+.d-flex {
+  display: flex;
+}
+.row {
+  flex-direction: row;
+}
+.col {
+  flex-direction: column;
+}
+.row-rev {
+  flex-direction: row-reverse;
+}
+.col-rev {
+  flex-direction: column-reverse;
+}
+.space-btw {
+  justify-content: space-between;
+}
+.space-around {
+  justify-content: space-around;
+}
+.space-evenly {
+  justify-content: space-evenly;
+}
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+/* Grid Properties */
+.d-grid {
+  display: grid;
+}
+.grid-center {
+  place-items: center;
+}
+
+/* Margins */
+.m-x-auto {
+  margin: 0 auto;
+}
+.m-y-auto {
+  margin: auto 0;
+}
+.m-auto {
+  margin: auto;
+}
